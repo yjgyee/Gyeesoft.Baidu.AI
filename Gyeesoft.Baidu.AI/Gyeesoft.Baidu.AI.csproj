@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <RootNamespace>Baidu.Aip</RootNamespace>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Description>基于Baidu-AIP-3.2.2。命名空间与接口与官方相同，修改兼容性bug，使其兼容.net standard 2.0</Description>
+    <PackageReleaseNotes>基于Baidu-AIP-3.2.2。命名空间与接口与官方相同，修改兼容性bug，使其兼容.net standard 2.0</PackageReleaseNotes>
+    <PackageProjectUrl>https://github.com/yjgyee/Gyeesoft.Baidu.AI</PackageProjectUrl>
+    <Version>1.0.1</Version>
+    <AssemblyVersion>1.0.0.1</AssemblyVersion>
+    <FileVersion>1.0.0.1</FileVersion>
+    <Authors>gyeesoft</Authors>
+    <Company>吉易软件</Company>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="10.0.3" />
+  </ItemGroup>
+
+</Project>
